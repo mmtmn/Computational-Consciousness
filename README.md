@@ -1,7 +1,5 @@
+![#f03c15] The code on this repository was made before the release of GPT-3 text-davinci-003 and was done on text-davinci-002. Improvements to this code will be made with the upcoming masters in AGI! `#f03c15`
 
-```diff
-- the code on this repository was made before the release of GPT-3 text-davinci-003 and was done on text-davinci-002. Improvements to this code will be made with the upcoming masters in AGI!
-```
 ---
 
 ## What are your thoughts on the code above?
