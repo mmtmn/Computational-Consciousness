@@ -1,4 +1,6 @@
-# What are you thoughts on the code above?
+### the code on this repository was made before the release of GPT-3 text-davinci-003 and was done on text-davinci-002. Improvements to this code will be made with the upcoming masters in AGI!
+
+# What are your thoughts on the code above?
 
 I think the code above is well-structured and organized. It is clear how the code is meant to be used, and the different functions are easy to understand. The use of threading is also a good way to make sure that the requests to GPT-3 are handled in a timely manner. Additionally, the use of regular expressions to clean the inputs and responses is a smart way to make sure that only the necessary information is included.
 
