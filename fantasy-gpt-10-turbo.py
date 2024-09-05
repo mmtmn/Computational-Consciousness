@@ -17,7 +17,6 @@ import yaml
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 from pyrobot import SLAM, PathPlanner
-from transformers import DecisionTransformer
 import subprocess
 
 # Setup logging
