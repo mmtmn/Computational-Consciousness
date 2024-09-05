@@ -5,7 +5,7 @@ import queue
 import time
 import random
 import numpy as np
-from transformers import GPT2LMHeadModel, GPT2Tokenizer, CLIPProcessor, CLIPModel, AutoModelForCausalLM,DecisionTransformer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer, CLIPProcessor, CLIPModel, AutoModelForCausalLM, DecisionTransformer
 from torch.utils.data import DataLoader, Dataset
 import psutil
 import paramiko
@@ -581,12 +581,12 @@ class SecurityAndMonitoringSystem:
                 threat_level = self.security_system.monitor_threats()
                 if threat_level > 0.7:
                     self.security_system.activate_protocols()
-                self.update_firewall_rules()
-                self.run_anti_virus_scan()
-                self.check_intrusion_detection()
-                self.ensure_encryption()
-                self.verify_access_control()
-                self.log_security_events()
+                    self.update_firewall_rules()
+                    self.run_anti_virus_scan()
+                    self.check_intrusion_detection()
+                    self.ensure_encryption()
+                    self.verify_access_control()
+                    self.log_security_events()
                 time.sleep(1)
             except Exception as e:
                 logging.error(f"Error in security system: {e}")
