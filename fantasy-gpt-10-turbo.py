@@ -1,4 +1,3 @@
-import os
 import torch
 import deepspeed
 import threading
@@ -6,7 +5,7 @@ import queue
 import time
 import random
 import numpy as np
-from transformers import GPT2LMHeadModel, GPT2Tokenizer, CLIPProcessor, CLIPModel, AutoModelForCausalLM
+from transformers import GPT2LMHeadModel, GPT2Tokenizer, CLIPProcessor, CLIPModel, AutoModelForCausalLM,DecisionTransformer
 from torch.utils.data import DataLoader, Dataset
 import psutil
 import paramiko
@@ -17,9 +16,9 @@ from stable_baselines3 import PPO
 import yaml
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
-from stable_baselines3 import PPO
-from transformers import DecisionTransformer
 from pyrobot import SLAM, PathPlanner
+from transformers import DecisionTransformer
+import subprocess
 
 # Setup logging
 logging.basicConfig(filename='system.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
